@@ -1,0 +1,829 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2% 20/924 [00:32<23:21,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  4% 40/924 [01:03<22:35,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6% 60/924 [01:33<22:05,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  9% 81/924 [02:06<21:44,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 11% 100/924 [02:35<21:12,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 13% 121/924 [03:07<20:36,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 15% 140/924 [03:37<20:06,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 17% 161/924 [04:09<19:36,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 19% 180/924 [04:38<19:04,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 22% 201/924 [05:11<18:37,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 24% 220/924 [05:40<18:02,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 26% 240/924 [06:11<17:29,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 28% 260/924 [06:42<17:02,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 30% 280/924 [07:13<16:27,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 33% 301/924 [07:45<15:57,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 35% 320/924 [08:14<15:29,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 37% 340/924 [08:45<14:59,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 39% 361/924 [09:17<14:21,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 41% 380/924 [09:47<13:55,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 43% 401/924 [10:19<13:27,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 45% 419/924 [10:47<13:08,  1.56s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 47% 438/924 [11:16<12:25,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 50% 459/924 [11:49<11:56,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 52% 478/924 [12:18<11:23,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 54% 499/924 [12:50<10:58,  1.55s/it]
+ 54% 500/924 [12:52<10:57,  1.55s/it][INFO|trainer.py:3801] 2025-01-17 15:24:20,121 >> Saving model checkpoint to saves/qwen2-0.5b/full/sft/checkpoint-500
+[INFO|configuration_utils.py:414] 2025-01-17 15:24:20,124 >> Configuration saved in saves/qwen2-0.5b/full/sft/checkpoint-500/config.json
+[INFO|configuration_utils.py:865] 2025-01-17 15:24:20,125 >> Configuration saved in saves/qwen2-0.5b/full/sft/checkpoint-500/generation_config.json
+[2025-01-17 15:24:22,402] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step500 is about to be saved!
+[2025-01-17 15:24:22,410] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: saves/qwen2-0.5b/full/sft/checkpoint-500/global_step500/mp_rank_00_model_states.pt
+[2025-01-17 15:24:22,410] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving saves/qwen2-0.5b/full/sft/checkpoint-500/global_step500/mp_rank_00_model_states.pt...
+[INFO|modeling_utils.py:3035] 2025-01-17 15:24:22,110 >> Model weights saved in saves/qwen2-0.5b/full/sft/checkpoint-500/model.safetensors
+[INFO|tokenization_utils_base.py:2646] 2025-01-17 15:24:22,130 >> tokenizer config file saved in saves/qwen2-0.5b/full/sft/checkpoint-500/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2655] 2025-01-17 15:24:22,130 >> Special tokens file saved in saves/qwen2-0.5b/full/sft/checkpoint-500/special_tokens_map.json
+/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+[2025-01-17 15:24:24,335] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved saves/qwen2-0.5b/full/sft/checkpoint-500/global_step500/mp_rank_00_model_states.pt.
+[2025-01-17 15:24:24,336] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving saves/qwen2-0.5b/full/sft/checkpoint-500/global_step500/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-01-17 15:24:40,497] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved saves/qwen2-0.5b/full/sft/checkpoint-500/global_step500/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-01-17 15:24:40,498] [INFO] [engine.py:3417:_save_zero_checkpoint] bf16_zero checkpoint saved saves/qwen2-0.5b/full/sft/checkpoint-500/global_step500/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-01-17 15:24:40,499] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step500 is ready now!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 56% 519/924 [13:43<10:29,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 58% 538/924 [14:12<09:57,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 60% 559/924 [14:45<09:23,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 63% 578/924 [15:14<08:55,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 65% 599/924 [15:47<08:20,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 67% 619/924 [16:17<07:52,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 69% 639/924 [16:48<07:17,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 71% 659/924 [17:19<06:47,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 73% 678/924 [17:48<06:17,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 76% 699/924 [18:21<05:47,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 78% 719/924 [18:51<05:16,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 80% 739/924 [19:22<04:45,  1.55s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 82% 759/924 [19:53<04:14,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 84% 779/924 [20:24<03:43,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 86% 799/924 [20:55<03:13,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 89% 818/924 [21:24<02:43,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 91% 839/924 [21:57<02:10,  1.53s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 93% 858/924 [22:26<01:41,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95% 879/924 [22:59<01:09,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 97% 899/924 [23:29<00:38,  1.54s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99% 919/924 [24:00<00:07,  1.53s/it]
+
+
+
+100% 924/924 [24:08<00:00,  1.54s/it][INFO|trainer.py:3801] 2025-01-17 15:35:35,703 >> Saving model checkpoint to saves/qwen2-0.5b/full/sft/checkpoint-924
+[INFO|configuration_utils.py:414] 2025-01-17 15:35:35,706 >> Configuration saved in saves/qwen2-0.5b/full/sft/checkpoint-924/config.json
+[INFO|configuration_utils.py:865] 2025-01-17 15:35:35,706 >> Configuration saved in saves/qwen2-0.5b/full/sft/checkpoint-924/generation_config.json
+[2025-01-17 15:35:37,811] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step924 is about to be saved!
+[2025-01-17 15:35:37,817] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: saves/qwen2-0.5b/full/sft/checkpoint-924/global_step924/mp_rank_00_model_states.pt
+[2025-01-17 15:35:37,817] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving saves/qwen2-0.5b/full/sft/checkpoint-924/global_step924/mp_rank_00_model_states.pt...
+[INFO|modeling_utils.py:3035] 2025-01-17 15:35:37,542 >> Model weights saved in saves/qwen2-0.5b/full/sft/checkpoint-924/model.safetensors
+[INFO|tokenization_utils_base.py:2646] 2025-01-17 15:35:37,559 >> tokenizer config file saved in saves/qwen2-0.5b/full/sft/checkpoint-924/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2655] 2025-01-17 15:35:37,559 >> Special tokens file saved in saves/qwen2-0.5b/full/sft/checkpoint-924/special_tokens_map.json
+/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py:1802: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+[2025-01-17 15:35:40,559] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved saves/qwen2-0.5b/full/sft/checkpoint-924/global_step924/mp_rank_00_model_states.pt.
+[2025-01-17 15:35:40,560] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving saves/qwen2-0.5b/full/sft/checkpoint-924/global_step924/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2025-01-17 15:35:56,864] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved saves/qwen2-0.5b/full/sft/checkpoint-924/global_step924/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2025-01-17 15:35:56,864] [INFO] [engine.py:3417:_save_zero_checkpoint] bf16_zero checkpoint saved saves/qwen2-0.5b/full/sft/checkpoint-924/global_step924/bf16_zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2025-01-17 15:35:56,865] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step924 is ready now!
+{'train_runtime': 1516.3411, 'train_samples_per_second': 9.75, 'train_steps_per_second': 0.609, 'train_loss': 0.02948258047947636, 'epoch': 3.0}
+[INFO|trainer.py:2584] 2025-01-17 15:35:56,867 >>
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100% 924/924 [24:30<00:00,  1.59s/it]
+[INFO|trainer.py:3801] 2025-01-17 15:35:57,427 >> Saving model checkpoint to saves/qwen2-0.5b/full/sft
+[INFO|configuration_utils.py:414] 2025-01-17 15:35:57,430 >> Configuration saved in saves/qwen2-0.5b/full/sft/config.json
+[INFO|configuration_utils.py:865] 2025-01-17 15:35:57,431 >> Configuration saved in saves/qwen2-0.5b/full/sft/generation_config.json
+***** train metrics *****
+  epoch                    =        3.0
+  total_flos               = 28017800GF
+  train_loss               =     0.0295
+  train_runtime            = 0:25:16.34
+  train_samples_per_second =       9.75
+  train_steps_per_second   =      0.609
+Figure saved at: saves/qwen2-0.5b/full/sft/training_loss.png
+[WARNING|2025-01-17 15:36:00] llamafactory.extras.ploting:162 >> No metric eval_loss to plot.
+[WARNING|2025-01-17 15:36:00] llamafactory.extras.ploting:162 >> No metric eval_accuracy to plot.
+[INFO|modeling_utils.py:3035] 2025-01-17 15:35:59,902 >> Model weights saved in saves/qwen2-0.5b/full/sft/model.safetensors
+[INFO|tokenization_utils_base.py:2646] 2025-01-17 15:35:59,919 >> tokenizer config file saved in saves/qwen2-0.5b/full/sft/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2655] 2025-01-17 15:35:59,919 >> Special tokens file saved in saves/qwen2-0.5b/full/sft/special_tokens_map.json
+[INFO|trainer.py:4117] 2025-01-17 15:36:00,362 >>
+***** Running Evaluation *****
+[INFO|trainer.py:4119] 2025-01-17 15:36:00,362 >>   Num examples = 548
+[INFO|trainer.py:4122] 2025-01-17 15:36:00,362 >>   Batch size = 2
+
+
+
+
+
+
+ 87% 238/274 [00:12<00:01, 19.47it/s]
+***** eval metrics *****
+  epoch                   =        3.0
+  eval_loss               =     0.0158
+  eval_runtime            = 0:00:14.42
+  eval_samples_per_second =     37.988
+100% 274/274 [00:14<00:00, 19.08it/s]
+[INFO|modelcard.py:449] 2025-01-17 15:36:14,789 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

@@ -1,0 +1,12 @@
+[submodule "Moonshot_Interview/LLaMA-Factory"]
+	path = Moonshot_Interview/LLaMA-Factory
+	url = https://github.com/hiyouga/LLaMA-Factory.git
+[submodule "Moonshot_Interview/Qwen2.5"]
+	path = Moonshot_Interview/Qwen2.5
+	url = https://github.com/QwenLM/Qwen2.5.git
+[submodule "Moonshot_Interview/stream-of-search"]
+	path = Moonshot_Interview/stream-of-search
+	url = https://github.com/kanishkg/stream-of-search.git
+[submodule "Moonshot_Interview/Moonshot_Interview/Qwen2.5"]
+	path = Moonshot_Interview/Moonshot_Interview/Qwen2.5
+	url = https://github.com/QwenLM/Qwen2.5.git

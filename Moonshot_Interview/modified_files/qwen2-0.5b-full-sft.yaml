@@ -1,0 +1,38 @@
+### model  
+model_name_or_path: Qwen/Qwen2-0.5B-Instruct  
+
+### method  
+stage: sft  
+do_train: true  
+finetuning_type: full  
+deepspeed: /content/Moonshot_Interview/LLaMA-Factory/examples/deepspeed/ds_z0_config.json  
+
+### dataset  
+dataset: qwen_train_data  
+template: qwen  
+cutoff_len: 1024  
+overwrite_cache: true  
+preprocessing_num_workers: 16  
+
+### output  
+output_dir: saves/qwen2-0.5b/full/sft  
+logging_steps: 20       # 每20步打印一次日志  
+save_steps: 500         # 每500步保存一个模型  
+plot_loss: true  
+overwrite_output_dir: true  
+
+### train  
+per_device_train_batch_size: 2    # 如果显存充足,可尝试2或4  
+gradient_accumulation_steps: 8    # 有效batch size=16  
+learning_rate: 1.0e-5  
+num_train_epochs: 3.0             # 先试3轮  
+lr_scheduler_type: cosine  
+warmup_ratio: 0.05                # 5% 步数做warmup  
+bf16: true  
+ddp_timeout: 180000000            # 分布式超时时间  
+
+### eval  
+val_size: 0.1  
+per_device_eval_batch_size: 2  
+eval_strategy: steps  
+eval_steps: 1000                  # 相对减少验证次数
